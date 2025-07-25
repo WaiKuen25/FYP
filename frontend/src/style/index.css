@@ -1,0 +1,27 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@layer base {
+  body {
+    @apply dark:bg-dark;
+    @apply font-roboto;
+  }
+}
+
+.icon-button {
+  @apply h-9 w-9 p-1 rounded-full cursor-pointer hover:bg-gray-200 flex items-center justify-center relative dark:text-white dark:hover:bg-gray-700;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.border-b-1 {
+  border-bottom-width: 1px;
+}
+
+.border-r-1 {
+  border-right-width: 1px;
+}
