@@ -13,4 +13,12 @@ This project use mongodb to do userfig configuration such as user preference lik
 2. Python summary function
 Due to large size of the model i have deleted the library of summary model you may run the python file once.
 
-#Some Demo of the project
+3. Gmail verify problem
+The project use email to send verify email to the register user ask them for verification.
+You may have to register a email for the system and rewrite in .env file.
+
+# Some Demo of the project
+![Index](/demo/index.png)
+![Index](/demo/post.png)
+![Index](/demo/login.png)
+![Index](/demo/userprofile.png)
